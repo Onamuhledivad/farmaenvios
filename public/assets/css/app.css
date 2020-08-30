@@ -1,0 +1,356 @@
+/*!
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400;1,700;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+ font-family: 'Lato', sans-serif !important;
+ height: 100%;
+}
+
+main{
+	min-height: calc(100vh - 160px);
+}
+
+a:hover{
+	text-decoration: none !important;
+	color:none !important;
+}
+/* ---------------------------------------------------------------------- */
+/* Colores
+/* ---------------------------------------------------------------------- */
+
+.c-azul{
+	color: #0E2995 !important;
+}
+.c-naranja{
+	color: #DD4712 !important;
+}
+
+.c-azul2{
+	color: #4DB1E0 !important;
+}
+.c-azul3{
+	color: #D9E4FF !important;
+}
+
+.bg-azul{
+	background-color: #0E2995 !important;
+}
+.bg-naranja{
+	background-color: #DD4712 !important;
+}
+
+.bg-azul2{
+	background-color: #4DB1E0 !important;
+}
+.bg-azul3{
+	background-color: #D9E4FF !important;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* Button
+/* ---------------------------------------------------------------------- */
+.btn-farm{
+	border-radius: 20px !important;
+	color: white !important;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.btn-farm:hover{
+	cursor: pointer;
+	-webkit-box-shadow: 4px 15px 58px -13px rgba(14,41,149,0.58);
+-moz-box-shadow: 4px 15px 58px -13px rgba(14,41,149,0.58);
+box-shadow: 4px 15px 58px -13px rgba(14,41,149,0.58);
+}
+
+
+.btn-buscar{
+	border: 1px solid white;
+	color: white;
+}
+
+.btn-buscar:hover{
+	border: 1px solid #0E2995;
+	background-color: #0E2995!important;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* Login
+/* ---------------------------------------------------------------------- */
+header{
+	width: 100%;
+	height: 5rem;
+}
+.login{
+	width:90%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.logo-login{
+	width: 100%;
+    padding:10px 20px;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.logo-login img {
+	width: 100%;
+}
+.titulo-login{
+	text-align: center;
+	text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.form-login{
+	width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.recordar{
+	text-align: center;
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.crea{
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #dfe3e8;
+	color: gray;
+	border-radius: 5px;
+}
+.privacidad{
+	font-size: 0.8rem;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Forms Inputs
+/* ---------------------------------------------------------------------- */
+.icon{
+  border-radius: 20px 0 0 20px!important;
+}
+.input-farm{
+	background-color: white !important;
+    border-radius: 0px 20px 20px 0 !important;
+    color: gray;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* Inicio
+/* ---------------------------------------------------------------------- */
+.sesion-menu{
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: right;
+}
+.sesion-text{
+	font-weight: bold;
+	margin-right: 10px;
+}
+.sesion-img{
+	width: 80px;
+}
+
+.logo-inicio{
+ width: 100%;
+ max-width: 350px;
+ margin: 0 auto;
+}
+.logo-inicio img{
+	width: 80%;
+}
+
+.titulo-inicio{
+font-size: 1.2rem;
+text-align: center;
+}
+
+.buscador{
+width: 100%;
+    padding: 10px;
+    height: 380px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-buscar{
+    margin-top: 60%;
+    position: relative;
+    display: block;
+}
+.buscar-input{
+	border: 1px solid white;
+    font-size: 0.9rem;
+}
+.categoria{
+width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #0E2995;
+    margin-bottom: 15px;
+}
+.categoria img{
+	width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.cat-text{
+	font-size: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+}
+.pt-8{
+	padding-top: 8px;
+}
+
+.i-mas{
+	font-size: 4rem;
+	color:white;
+}
+.box13{position:relative;transition:all .2s ease-out 0s}
+.box13 .box-content,.box13:after{
+	position:absolute;
+	left:0px;
+	right:0px
+}
+.box13:after{
+	content:"";
+	display:block;
+	background:#DD4712;
+	top:0px;
+	bottom:0px;
+	opacity:0;
+	border-radius: 10px;
+	transform:rotate3d(-1,1,0,100deg);
+	transition:all .4s ease-in-out 0s
+}
+.box13:hover:after{opacity:.9;transform:rotate3d(0,0,0,0deg)}
+.box13 .box-content{text-align: center;color: white;top:45%;opacity:0;z-index:1;-webkit-transform:translate(10%,-30%);transform:translate(10%,-30%);transition:all .2s ease-out 0s}
+.box13:hover .box-content{opacity:1;transform:translate(0,-50%);transition-delay:.2s}
+.box13 a:hover{ cursor: pointer; color:white;}
+
+.modal-header{
+	background: #0E2995;
+    color: white;
+    text-transform: uppercase;
+}
+.close{
+	color: white !important;
+}
+.close:focus, .close:hover{
+    color: white !important;
+    text-decoration: none;
+    opacity: .75;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+.modal-menu > ul{
+	    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.modal-menu li {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.modal-menu a{
+	text-decoration: none;
+	color: #DD4712;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.modal-menu a:hover{
+	color: #DD4712!important;
+	text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer
+/* ---------------------------------------------------------------------- */
+
+footer{
+	width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+
+.menu-footer{
+	    width: 100%;
+    padding: 15px;
+    display: block;
+    position: relative;
+    font-weight: bold;
+}
+.foot-link{
+	margin-right: 15px;
+    display: inline-block;
+}
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+
+.titulo-login {
+    font-size: 1.2rem;
+}
+
+.buscador {
+    width: 100%;
+    padding: 10px;
+    height: 380px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    background-position: -15px center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.categoria {
+    width: 100%;
+        height: auto;
+    min-height: 200px;
+}
+
+
+}
