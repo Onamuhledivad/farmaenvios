@@ -22,3 +22,10 @@ Route::get('/', function () {
 Route::get('/login','AuthController@login');
 Route::get('/registro','AuthController@register');
 Route::get('/recuperar-contraseña','AuthController@password');
+
+
+/*-- Corporativo --*/
+Route::get('/quienes-somos','HomeController@quienes');
+Route::get('/preguntas-frecuentes','HomeController@preguntas');
+Route::get('/condiciones-de-servicio','HomeController@servicio');
+Route::get('/privacidad','HomeController@privacidad');
