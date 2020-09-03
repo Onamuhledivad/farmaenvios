@@ -58,7 +58,9 @@ a:hover{
 	background-color: white !important;
 }
 
-
+.b-r{
+    border-right: 1px solid #0e2995;
+}
 /* ---------------------------------------------------------------------- */
 /* Button
 /* ---------------------------------------------------------------------- */
@@ -255,7 +257,7 @@ width: 100%;
 .box13:hover .box-content{opacity:1;transform:translate(0,-50%);transition-delay:.2s}
 .box13 a:hover{ cursor: pointer; color:white;}
 
-.modal-header{
+.modal-heade-menu{
 	background: #0E2995;
     color: white;
     text-transform: uppercase;
@@ -335,6 +337,195 @@ width: 100%;
 .question: focus{
 	text-decoration: none !important;
 }
+
+
+/* ---------------------------------------------------------------------- */
+/* eCommerce
+/* ---------------------------------------------------------------------- */
+.nav-ecommerce{
+    margin-left: 50%;
+}
+
+.nav-ecommerce li > a{
+     color: white!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.888rem;
+}
+
+.user{
+    text-transform: none !important;
+}
+.shop{
+        font-size: 1.3rem;
+}
+
+.texto-buscar{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
+.buscar-header{
+        width: 60%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.input-header{
+    border-radius: 15px 0 0 15px !important;
+    background: #D9E4FF !important;
+    border: 1px solid #D9E4FF !important;
+}
+.btn-buscar-header{
+        background: #D9E4FF !important;
+    border: 1px solid #D9E4FF !important;
+    border-radius: 0 15px 15px 0 !important;
+}
+
+.buscar-header p {
+    text-align: center;
+    font-size: 0.99rem;
+}
+
+.product-link{
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.product-link:hover{
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+}
+
+.producto{
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.producto-img{
+    width: 90%;
+    margin: 0 auto;
+}
+.producto img{
+    width: 100%;
+}
+
+.d-icon {
+    width: 100px;
+    float: right;
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.distintivo {
+    background: #dd4712;
+    border-radius: 100%;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: block;
+    width: 18px;
+    margin: 0 auto;
+}
+.desc h1{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.desc p{
+    text-align:center;
+    color: #000000;
+}
+.ingr{
+    color: #000000;
+}
+.cantidad {
+    font-weight: bold;
+    margin-top: -15px;
+    text-transform: lowercase;
+}
+.precio{
+    font-weight: bold;
+}
+.border-line {
+    width: 100%;
+    height: 3px;
+    display: block;
+}
+.total{
+     font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo-comparacion{
+    width: 95%;
+    text-align:center;
+    font-weight: bold;
+}
+
+.modal-producto{
+    width: 80% !important;
+    max-width: 1200px !important;
+    margin:0 auto !important;
+}
+.modal-header {
+    border-bottom: none !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+.modal-content{
+    border: none !important;
+    border-radius: 0!important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    padding-bottom: 10px;
+}
+.container-fluid{
+    width: 80%!important;
+}
+.modal-b{
+    text-align: center;
+    text-transform: uppercase;
+    font-
+}
+.btn-comp{
+        margin-top: 15px;
+    margin-bottom: 15px;;
+}
+
+.m-total{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 20px;
+    display: inline-block;
+}
+.receta{
+text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.m-distintivo {
+    background: #dd4712;
+    border-radius: 100%;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 18px;
+    margin-right: 5px;
+}
+
+
 /* ---------------------------------------------------------------------- */
 /* Footer
 /* ---------------------------------------------------------------------- */

@@ -3,29 +3,26 @@ namespace App\Http\Controllers;
 class HomeController extends Controller
 {
 
-	public function quienes()
+  /*-- Paginas fuera del login --*/
+
+	  public function quienes()
     {
-       return view('quienes'); 
+       return view('corporativo.quienes'); 
     }
 
     public function preguntas()
     {
-       return view('preguntas'); 
+       return view('corporativo.preguntas'); 
     }
     public function servicio()
     {
-       return view('servicio'); 
+       return view('corporativo.servicio'); 
     }
 
     public function privacidad()
     {
-       return view('privacidad'); 
+       return view('corporativo.privacidad'); 
     }
-
-
-
-
-
 
 }
 ?>

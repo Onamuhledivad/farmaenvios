@@ -1,4 +1,4 @@
-@include('layouts.header.nav');
+@include('layouts.header.nav')
 <main>
 <section class="container">
 
@@ -7,4 +7,4 @@
 </section>
 </main>
 
-@include('layouts.footer.footer');
+@include('layouts.footer.footer')

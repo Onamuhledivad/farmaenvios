@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('inicio');
+    return view('home');
 });
 
 
@@ -29,3 +29,7 @@ Route::get('/quienes-somos','HomeController@quienes');
 Route::get('/preguntas-frecuentes','HomeController@preguntas');
 Route::get('/condiciones-de-servicio','HomeController@servicio');
 Route::get('/privacidad','HomeController@privacidad');
+
+
+/*-- eCommerce --*/
+Route::get('/buscar','EcommerceController@buscar');
